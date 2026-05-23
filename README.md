@@ -78,17 +78,17 @@ To build and run this engine locally on your machine, follow these direct deploy
    ```bash
    git clone [https://github.com/JuanCG115/SoftEngine.git](https://github.com/JuanCG115/SoftEngine.git)
 
-2. **Open the Solution:
+2. **Open the Solution:**
    Navigate into the project root directory and double-click the standard `SoftEngine.sln` file to automatically load the entire workspace environment inside Visual Studio.
 
-3. **Verify Asset Outputs (Crucial):
+3. **Verify Asset Outputs (Crucial):**
    Inside the Solution Explorer, inspect your mesh assets (monkey.obj) and image channels (`texture1.png`, `texture2.png`, `texture3.png`).
 
    -Left-click each asset file to open its structural Properties window.
 
    -Verify that the "Copy to Output Directory" parameter is explicitly toggled to "Copy if newer" (or "Copy always"). This forces the compiler to pipeline the physical resources straight into the live executable target folder (`/bin/Debug/`).
 
-4. **Compile & Execute:
+4. **Compile & Execute:**
    Press `F5` or click the green "Start / Debug" button on the top toolbar.
 
    -The interactive engine window will immediately display the live texturized mesh overlay.

@@ -69,7 +69,7 @@ The rendering viewport actively hooks into keyboard input to manipulate the envi
 - <img width="800" height="667" alt="image" src="https://github.com/user-attachments/assets/c303428b-8b1e-4cb3-b02c-8f91aee5a07d" />
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/59491e4f-3b9b-4baa-a98c-aff679c83429" width="60%" controls></video>
+  <video src="https://github.com/user-attachments/assets/59491e4f-3b9b-4baa-a98c-aff679c83429" width="45%" controls></video>
 </p>
 
 

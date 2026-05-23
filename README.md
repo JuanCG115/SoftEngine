@@ -63,7 +63,37 @@ The rendering viewport actively hooks into keyboard input to manipulate the envi
 - **`◄ Arrow Left`** : Spin the 3D model counter-clockwise over its local Y-axis.
 - **`► Arrow Right`** : Spin the 3D model clockwise over its local Y-axis.
 
----
+## How to Run and Test the Project
+
+To build and run this engine locally on your machine, follow these direct deployment steps:
+
+### Prerequisites
+- **Visual Studio 2022** (Community, Professional, or Enterprise editions).
+- **.NET Desktop Development Workload** (Enabled via the Visual Studio Installer).
+
+### Step-by-Step Deployment
+
+1. **Clone the Repository:**
+   Open your preferred terminal or command line and fetch the project code locally:
+   ```bash
+   git clone [https://github.com/JuanCG115/SoftEngine.git](https://github.com/JuanCG115/SoftEngine.git)
+
+2. **Open the Solution:
+   Navigate into the project root directory and double-click the standard `SoftEngine.sln` file to automatically load the entire workspace environment inside Visual Studio.
+
+3. **Verify Asset Outputs (Crucial):
+   Inside the Solution Explorer, inspect your mesh assets (monkey.obj) and image channels (`texture1.png`, `texture2.png`, `texture3.png`).
+
+   -Left-click each asset file to open its structural Properties window.
+
+   -Verify that the "Copy to Output Directory" parameter is explicitly toggled to "Copy if newer" (or "Copy always"). This forces the compiler to pipeline the physical resources straight into the live executable target folder (`/bin/Debug/`).
+
+4. **Compile & Execute:
+   Press `F5` or click the green "Start / Debug" button on the top toolbar.
+
+   -The interactive engine window will immediately display the live texturized mesh overlay.
+
+   -Click the interactive top menu to toggle active texture layouts, and use your arrow keys to manipulate the viewport environment freely!
 
 ## Exporting Custom Assets from Blender
 To import your own custom 3D models into this engine, use the following configurations during Blender export:

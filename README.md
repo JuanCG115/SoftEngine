@@ -86,7 +86,8 @@ To build and run this engine locally on your machine, follow these direct deploy
 1. **Clone the Repository:**
    Open your preferred terminal or command line and fetch the project code locally:
    ```bash
-   git clone [https://github.com/JuanCG115/SoftEngine.git](https://github.com/JuanCG115/SoftEngine.git)
+   git clone https://github.com/JuanCG115/SoftEngine.git
+   ```
 
 2. **Open the Solution:**
    Navigate into the project root directory and double-click the standard `SoftEngine.sln` file to automatically load the entire workspace environment inside Visual Studio.
